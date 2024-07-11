@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+struct Lobby: Identifiable {
+    let id = UUID()
+    var players: [Player]
+    var scanDate: Date
+}

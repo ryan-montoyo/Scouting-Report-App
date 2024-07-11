@@ -6,25 +6,45 @@
 //
 
 import SwiftUI
+import UIKit
 
 struct MainView: View {
     var body: some View {
-        TabView {
-            HistoryView()
+        ZStack {
+            TabView {
+                HistoryView()
                 .tabItem {
                     Label("History", systemImage: "clock")
                 }
+            
             ScoutView()
                 .tabItem {
                     Label("Scout", systemImage: "magnifyingglass")
                 }
-            ProfileView()
+            
+            SettingsView()
                 .tabItem {
-                    Label("Profile", systemImage: "person")
+                    Label("Settings", systemImage: "gear")
                 }
+            TestView()
+                .tabItem {
+                    Label("Test", systemImage: "testtube.2")
+                }
+            
+            }
+            .accentColor(.red)
+
+            VStack {
+                Spacer()
+                Rectangle()
+                    .frame(maxWidth: .infinity, maxHeight: 0.2)
+                    .foregroundColor(Color(UIColor.systemGray6))
+                    .padding(.bottom, 60)
+            }
         }
     }
 }
+
 
 #Preview {
     MainView()

@@ -14,10 +14,19 @@
 		A65CC07C2C3DD10900AD1711 /* launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A65CC07B2C3DD10900AD1711 /* launch.storyboard */; };
 		A65CC07E2C3DD2E000AD1711 /* ScoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65CC07D2C3DD2DF00AD1711 /* ScoutView.swift */; };
 		A65CC0802C3DD2E900AD1711 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65CC07F2C3DD2E900AD1711 /* HistoryView.swift */; };
-		A65CC0822C3DD37700AD1711 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65CC0812C3DD37700AD1711 /* ProfileView.swift */; };
 		A65CC0842C3DD3DF00AD1711 /* ScoutViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65CC0832C3DD3DF00AD1711 /* ScoutViewViewModel.swift */; };
-		A65CC08A2C3DD40E00AD1711 /* HistoryViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65CC0892C3DD40E00AD1711 /* HistoryViewViewModel.swift */; };
+		A65CC08A2C3DD40E00AD1711 /* HistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65CC0892C3DD40E00AD1711 /* HistoryViewModel.swift */; };
 		A65CC08C2C3DD43500AD1711 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65CC08B2C3DD43500AD1711 /* ImagePicker.swift */; };
+		A65CC0902C3DF1BF00AD1711 /* ReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65CC08F2C3DF1BF00AD1711 /* ReportView.swift */; };
+		A65CC0922C3DF78000AD1711 /* ScoutCondensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A65CC0912C3DF78000AD1711 /* ScoutCondensed-Bold.ttf */; };
+		A65CC0952C3DF90200AD1711 /* ScoutCondensed-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A65CC0942C3DF90200AD1711 /* ScoutCondensed-BoldItalic.ttf */; };
+		A65CC0972C3E049E00AD1711 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65CC0962C3E049E00AD1711 /* SettingsView.swift */; };
+		A65CC09B2C40412200AD1711 /* LobbyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65CC09A2C40412200AD1711 /* LobbyView.swift */; };
+		A65CC09D2C40415B00AD1711 /* LobbyViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65CC09C2C40415B00AD1711 /* LobbyViewViewModel.swift */; };
+		A65CC09F2C40430100AD1711 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65CC09E2C40430100AD1711 /* Player.swift */; };
+		A65CC0A12C4045F300AD1711 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65CC0A02C4045F300AD1711 /* SettingsViewModel.swift */; };
+		A65CC0A32C4045FB00AD1711 /* Lobby.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65CC0A22C4045FB00AD1711 /* Lobby.swift */; };
+		A65CC0A52C40747000AD1711 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65CC0A42C40747000AD1711 /* TestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,10 +38,20 @@
 		A65CC07B2C3DD10900AD1711 /* launch.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = launch.storyboard; sourceTree = "<group>"; };
 		A65CC07D2C3DD2DF00AD1711 /* ScoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoutView.swift; sourceTree = "<group>"; };
 		A65CC07F2C3DD2E900AD1711 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
-		A65CC0812C3DD37700AD1711 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		A65CC0832C3DD3DF00AD1711 /* ScoutViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoutViewViewModel.swift; sourceTree = "<group>"; };
-		A65CC0892C3DD40E00AD1711 /* HistoryViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewViewModel.swift; sourceTree = "<group>"; };
+		A65CC0892C3DD40E00AD1711 /* HistoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewModel.swift; sourceTree = "<group>"; };
 		A65CC08B2C3DD43500AD1711 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		A65CC08F2C3DF1BF00AD1711 /* ReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportView.swift; sourceTree = "<group>"; };
+		A65CC0912C3DF78000AD1711 /* ScoutCondensed-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ScoutCondensed-Bold.ttf"; sourceTree = "<group>"; };
+		A65CC0932C3DF79800AD1711 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A65CC0942C3DF90200AD1711 /* ScoutCondensed-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ScoutCondensed-BoldItalic.ttf"; sourceTree = "<group>"; };
+		A65CC0962C3E049E00AD1711 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A65CC09A2C40412200AD1711 /* LobbyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LobbyView.swift; sourceTree = "<group>"; };
+		A65CC09C2C40415B00AD1711 /* LobbyViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LobbyViewViewModel.swift; sourceTree = "<group>"; };
+		A65CC09E2C40430100AD1711 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		A65CC0A02C4045F300AD1711 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		A65CC0A22C4045FB00AD1711 /* Lobby.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lobby.swift; sourceTree = "<group>"; };
+		A65CC0A42C40747000AD1711 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +84,7 @@
 		A65CC0662C3DCFFE00AD1711 /* ScoutingReport */ = {
 			isa = PBXGroup;
 			children = (
+				A65CC0932C3DF79800AD1711 /* Info.plist */,
 				A65CC0772C3DD08B00AD1711 /* Other */,
 				A65CC0762C3DD08500AD1711 /* ViewModels */,
 				A65CC0752C3DD08000AD1711 /* Views */,
@@ -87,7 +107,10 @@
 				A65CC0792C3DD0BB00AD1711 /* MainView.swift */,
 				A65CC07D2C3DD2DF00AD1711 /* ScoutView.swift */,
 				A65CC07F2C3DD2E900AD1711 /* HistoryView.swift */,
-				A65CC0812C3DD37700AD1711 /* ProfileView.swift */,
+				A65CC08F2C3DF1BF00AD1711 /* ReportView.swift */,
+				A65CC0962C3E049E00AD1711 /* SettingsView.swift */,
+				A65CC09A2C40412200AD1711 /* LobbyView.swift */,
+				A65CC0A42C40747000AD1711 /* TestView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -96,8 +119,10 @@
 			isa = PBXGroup;
 			children = (
 				A65CC0832C3DD3DF00AD1711 /* ScoutViewViewModel.swift */,
-				A65CC0892C3DD40E00AD1711 /* HistoryViewViewModel.swift */,
+				A65CC0892C3DD40E00AD1711 /* HistoryViewModel.swift */,
 				A65CC08B2C3DD43500AD1711 /* ImagePicker.swift */,
+				A65CC09C2C40415B00AD1711 /* LobbyViewViewModel.swift */,
+				A65CC0A02C4045F300AD1711 /* SettingsViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -105,9 +130,13 @@
 		A65CC0772C3DD08B00AD1711 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				A65CC0912C3DF78000AD1711 /* ScoutCondensed-Bold.ttf */,
+				A65CC0942C3DF90200AD1711 /* ScoutCondensed-BoldItalic.ttf */,
 				A65CC06B2C3DD00000AD1711 /* Assets.xcassets */,
 				A65CC0672C3DCFFE00AD1711 /* ScoutingReportApp.swift */,
 				A65CC07B2C3DD10900AD1711 /* launch.storyboard */,
+				A65CC09E2C40430100AD1711 /* Player.swift */,
+				A65CC0A22C4045FB00AD1711 /* Lobby.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -172,7 +201,9 @@
 			files = (
 				A65CC07C2C3DD10900AD1711 /* launch.storyboard in Resources */,
 				A65CC06F2C3DD00000AD1711 /* Preview Assets.xcassets in Resources */,
+				A65CC0922C3DF78000AD1711 /* ScoutCondensed-Bold.ttf in Resources */,
 				A65CC06C2C3DD00000AD1711 /* Assets.xcassets in Resources */,
+				A65CC0952C3DF90200AD1711 /* ScoutCondensed-BoldItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,13 +214,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A65CC0A32C4045FB00AD1711 /* Lobby.swift in Sources */,
+				A65CC09B2C40412200AD1711 /* LobbyView.swift in Sources */,
+				A65CC09D2C40415B00AD1711 /* LobbyViewViewModel.swift in Sources */,
 				A65CC07E2C3DD2E000AD1711 /* ScoutView.swift in Sources */,
 				A65CC0802C3DD2E900AD1711 /* HistoryView.swift in Sources */,
-				A65CC08A2C3DD40E00AD1711 /* HistoryViewViewModel.swift in Sources */,
-				A65CC0822C3DD37700AD1711 /* ProfileView.swift in Sources */,
+				A65CC09F2C40430100AD1711 /* Player.swift in Sources */,
+				A65CC0A52C40747000AD1711 /* TestView.swift in Sources */,
+				A65CC08A2C3DD40E00AD1711 /* HistoryViewModel.swift in Sources */,
+				A65CC0972C3E049E00AD1711 /* SettingsView.swift in Sources */,
 				A65CC07A2C3DD0BB00AD1711 /* MainView.swift in Sources */,
+				A65CC0A12C4045F300AD1711 /* SettingsViewModel.swift in Sources */,
 				A65CC08C2C3DD43500AD1711 /* ImagePicker.swift in Sources */,
 				A65CC0842C3DD3DF00AD1711 /* ScoutViewViewModel.swift in Sources */,
+				A65CC0902C3DF1BF00AD1711 /* ReportView.swift in Sources */,
 				A65CC0682C3DCFFE00AD1711 /* ScoutingReportApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -327,6 +365,7 @@
 				DEVELOPMENT_TEAM = G84JXVVV25;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ScoutingReport/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera to scan Rainbow Six Siege scoreboards";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -358,6 +397,7 @@
 				DEVELOPMENT_TEAM = G84JXVVV25;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ScoutingReport/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera to scan Rainbow Six Siege scoreboards";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

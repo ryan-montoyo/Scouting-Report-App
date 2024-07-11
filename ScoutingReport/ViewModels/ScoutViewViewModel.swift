@@ -40,7 +40,7 @@ class ScoutViewViewModel: ObservableObject {
             }
             
             // Assuming the gamertags are 10 in number, you can adjust based on your needs
-            self.gamertags = Array(recognizedTexts.prefix(10))
+            self.gamertags = Array(recognizedTexts.prefix(12))
         }
         
         request.recognitionLevel = .accurate
